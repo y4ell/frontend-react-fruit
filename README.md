@@ -19,8 +19,8 @@ Wanneer dit klaar is, kun je de applicatie starten met behulp van:
 
 `npm run dev`
 
-of gebruik de WebStorm knop (npm start). Open [http://localhost:3000](http://localhost:3000) om
-de pagina in de browser te bekijken. Begin met het maken van wijzigingen in `src/App.js`.
+of gebruik de WebStorm knop (npm run dev). Open http://localhost:5173 om
+de pagina in de browser te bekijken. Begin met het maken van wijzigingen in `src/App.jsx`.
 
 ## Tussenstappen bekijken
 De tutorial werkt in stapjes. Na elke stap kun je de bijbehorende branch bekijken om te zien hoe de
@@ -29,4 +29,4 @@ applicatie er op dat moment uit zou moeten zien:
 2. [Actie 2](https://github.com/hogeschoolnovi/frontend-react-fruit-perfection/blob/stap2/src/App.jsx)
 3. [Actie 3](https://github.com/hogeschoolnovi/frontend-react-fruit-perfection/blob/stap3/src/App.jsx)
 4. [Actie 4](https://github.com/hogeschoolnovi/frontend-react-fruit-perfection/blob/stap4/src/App.jsx)
-5. [Eindresultaat App.js](https://github.com/hogeschoolnovi/frontend-react-fruit-perfection/blob/stap5/src/App.jsx) en [Eindresultaat Product.js](https://github.com/hogeschoolnovi/frontend-react-fruit-perfection/blob/stap5/src/Components/Product.jsx)
+5. [Eindresultaat App.jsx](https://github.com/hogeschoolnovi/frontend-react-fruit-perfection/blob/stap5/src/App.jsx) en [Eindresultaat Product.jsx](https://github.com/hogeschoolnovi/frontend-react-fruit-perfection/blob/stap5/src/Components/Product.jsx)
