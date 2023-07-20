@@ -12,13 +12,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap');
 
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 /* ------------------------------- 2. Areas ---------------------------------------- */
@@ -26,134 +26,134 @@ body {
 /* --------------- 2.1 Navigation ------------------------- */
 
 nav {
-  /*Normaalgesproken hoef je de navigatie niet absoluut te positioneren.
-  Dit kun je gemakkelijk bereiken met het inner vs. outer container principe.
-  In deze situatie hebben we het zo gedaan om het aantal containers in de HTML te minimaliseren. */
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 48px;
-  z-index: 1;
+    /*Normaalgesproken hoef je de navigatie niet absoluut te positioneren.
+    Dit kun je gemakkelijk bereiken met het inner vs. outer container principe.
+    In deze situatie hebben we het zo gedaan om het aantal containers in de HTML te minimaliseren. */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 48px;
+    z-index: 1;
 
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 nav ul {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-basis: 250px;
-  flex-grow: 0;
-  flex-shrink: 1;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 250px;
+    flex-grow: 0;
+    flex-shrink: 1;
 }
 
 nav a,
 nav a:visited {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 nav a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 .shopping-cart-icon {
-  width: 32px;
-  height: 32px;
+    width: 32px;
+    height: 32px;
 }
 
 .shopping-cart-icon > path {
-  fill: white;
+    fill: white;
 }
 
 /* --------------- 2.2 Header ------------------- */
 
 header {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: url('./assets/header-background.jpg') no-repeat center center fixed;
-  background-size: cover;
-  color: white;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('./assets/header-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
 }
 
 header button {
-  background-color: white;
-  font-weight: 600;
-  border: none;
-  padding: 24px 48px;
-  font-size: 20px;
-  color: #df7c6d;
-  border: 2px solid #df7c6d;
-  box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 4px;
+    background-color: white;
+    font-weight: 600;
+    border: none;
+    padding: 24px 48px;
+    font-size: 20px;
+    color: #df7c6d;
+    border: 2px solid #df7c6d;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 4px;
 }
 
 header button:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 header h1 {
-  font-size: 72px;
-  padding: 48px 0;
-  color: white;
-  text-align: center;
-  text-shadow: rgba(0, 0, 0, 0.12) 0px 1px 4px;
+    font-size: 72px;
+    padding: 48px 0;
+    color: white;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.12) 0px 1px 4px;
 }
 
 /* --------------- 2.3 Products ------------------- */
 
 main {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 100px;
 }
 
 .product {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex-basis: 300px;
-  margin: 20px;
-  flex-grow: 0;
-  flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 300px;
+    margin: 20px;
+    flex-grow: 0;
+    flex-shrink: 0;
 }
 
 .product-name {
-  font-weight: 300;
-  color: #df7c6d;
-  margin: 20px 0;
+    font-weight: 300;
+    color: #df7c6d;
+    margin: 20px 0;
 }
 
 .product-description {
-  font-weight: 200;
-  font-size: 16px;
-  text-align: justify;
-  color: #333333;
+    font-weight: 200;
+    font-size: 16px;
+    text-align: justify;
+    color: #333333;
 }
 
 .product img {
-  width: 100%;
+    width: 100%;
 }
 
 /* ------------------------------- 3. Media Queries -------------------------------- */
 
 @media screen and (max-width: 1200px) {
-  main {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+    main {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
-  .product {
-    flex-grow: 1;
-  }
+    .product {
+        flex-grow: 1;
+    }
 }
